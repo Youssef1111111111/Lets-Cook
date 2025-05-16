@@ -1,0 +1,117 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    gap: 20%;
+    margin-top: 110px;
+}
+
+.profile_pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 1px solid #0EAE1F;
+    background-image: url(../images/07fb3452c4640d881a16d08c2e314f3e.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    flex-shrink: 0;
+}
+
+.input_img {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.left_profile_data{
+    margin-top: -30px;
+}
+.right_profile_data{
+    margin-top: -32px;
+}
+
+
+.profile_data_title{
+    font-family: "Mulish";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    margin-bottom: 8px;
+    color: #165F35;
+}
+
+.data_box{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #0EAE1F;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.edit_icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.data{
+    display: flex;
+    gap: 20px;
+}
+
+.info_side{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 270px;
+}
+
+.none{
+    display: none;
+}
+
+.save_bt{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.logout{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+.logout_icon{
+    width: 25px;
+    height: 25px;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+.profile_image{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0EAE1F;
+    border-radius: 40px;
+    margin-top: -5px;
+    cursor: pointer;
+    background-image: url(../images/07fb3452c4640d881a16d08c2e314f3e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

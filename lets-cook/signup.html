@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Faustina:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Faustina:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Faustina:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="box">
+    <div class="form">       
+        <h1 class="sign_title">Sign Up</h1>
+        <hr class="line">               
+        <div class="user_input">
+            <h3 class="title">Username</h3>
+            <input class= "input" type="text" name="username" placeholder="Username" required>
+        </div>
+        <div class="email_input"> 
+            <h3 class="title" >Email Address</h3>
+            <input class="input" type="email" name="email" placeholder="Email Address" required>
+            <div class="error-message none">
+                <img src="./images/output-onlinepngtools(20).png" alt="" class="error-icon">
+                <h1 class="error-text"> Please enter a valid email address. </h1>
+            </div>
+        </div>   
+        <div class="pass_input">
+            <h3 class="title" >Password</h3>
+            <input class="input" type="password" name="password" placeholder="Password" required>
+        </div>   
+        <div class="confirm_input">
+            <h3 class="title" >Confirm Password</h3>
+            <input class="input" type="password" name="confirm_password" placeholder="Confirm Password" required>
+        </div> 
+        <div class="is_admin">
+            <input type="checkbox" name="agree" id="agreeCheckbox"> 
+            <h3 class="title" id="isadmin_text">Sign Up as an admin</h3>
+        </div>           
+        <div class="error-message none" id="pass-error">
+            <img src="./images/output-onlinepngtools(20).png" alt="" class="error-icon">
+            <h1 class="error-text"> Passwords do not match. </h1>
+        </div>     
+        <button class="signup_bt" type="submit">Sign Up</button>
+    </div>  
+    <h5 class="check_acc">Already have an account? <a href="./signin.html">Sign in</a></h5>
+       
+               
+  </div>
+  <script src="./js/signup.js"></script>
+</body>
+</html>

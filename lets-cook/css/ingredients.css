@@ -1,0 +1,20 @@
+.ingredients_data{
+    width: 900px;
+    height: auto;
+    border: 2px solid #165F35;
+    padding: 50px;
+}
+
+#recipe_name_int{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#recipe_course_int{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ingredients_box{
+    width: 100%;
+}
